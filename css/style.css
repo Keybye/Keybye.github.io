@@ -1,22 +1,24 @@
 .profile{
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     background: url("../prof/bye.jpg") ;
     background-size: 100% 100%;
     border-radius: 50%;
     border: 1px solid white;
     margin-top: 5%;
+    box-shadow:0px 0px 20px rgba(23,23,23,0.2);
 }
 body{
-    background: url("../backgroud/b1.JPG") no-repeat fixed;
+    background: url("../backgroud/01.JPG") no-repeat fixed;
     background-size: cover;
 }
 table{
     color: white;
-    margin-top: 5%;
-    height: 100px;
-    width: 200px;
-    border: 1px solid white;
+    margin-top: 3%;
+    height: 150px;
+    width: 300px;
+    box-shadow:0px 0px 20px rgba(23,23,23,0.2);
     border-radius: 8px;
     padding: 10px;
+    backdrop-filter: blur(15px);
 }
