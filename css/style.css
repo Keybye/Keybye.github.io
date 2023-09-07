@@ -1,0 +1,22 @@
+.profile{
+    width: 100px;
+    height: 100px;
+    background: url("../prof/bye.jpg") ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 5%;
+}
+body{
+    background: url("../backgroud/b1.JPG") no-repeat fixed;
+    background-size: cover;
+}
+table{
+    color: white;
+    margin-top: 5%;
+    height: 100px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+}
