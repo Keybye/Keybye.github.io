@@ -1,17 +1,3 @@
-table,.fade{
-    -webkit-animation-name:  fade;
-    -webkit-animation-duration: 5s;
-    animation-name: fade;
-    animation-duration: 5s;
-}
-@-webkit-keyframes fade {
-    from {opacity: 0}
-    to{opacity: 1}
-}
-@keyframes from {
-    from{opacity: 0}
-    to{opacity: 1}
-}
 @keyframes  pro-hrScale {
     0%{
     transform: scale(0);
@@ -24,8 +10,44 @@ table,.fade{
         transform: scale(1);
     }
 }
+@keyframes tableAni {
+    0%{
+        opacity: 0;
+        left: 65%;
+    }
+    50%{
+        opacity: .5;
+        left: 55%;
+    }
+    100%{
+        opacity: 1;
+        left: 60%;
+    }
+}
+@keyframes iconAni {
+    0%{
+        opacity: 0;
+        left: 104%;
+    }
+    50%{
+        opacity: .5;
+        left: 92%;
+    }
+    100%{
+        opacity: 1;
+        left: 98%;
+    }
+}
+.tableAni{
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: tableAni;
+}
 .pro-hrScale{
     -webkit-animation-duration: 3s;
     -webkit-animation-name: pro-hrScale;
 
+}
+.iconAni{
+    -webkit-animation-name: iconAni;
+    -webkit-animation-duration: 4s;
 }
