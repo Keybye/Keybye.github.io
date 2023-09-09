@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-   .fade{
-       -webkit-animation-duration: 1.5s;
-       -webkit-animation-name: fade;
-       transition: 1.5s ease-in-out;
-       background: red;
-       height: 150px;
-       width: 150px;
-   }
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
     </style>
 </head>
 <body>
-<div class="fade">
+<div class="fade">    <img src="prof/bye.jpg">
+</div>
 </div>
 </body>
 </html>

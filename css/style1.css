@@ -39,6 +39,7 @@ body{
     background-size: cover;
 }
 .table{
+
     color: rgba(245,245,245,0.9);
     height: 30%;
     width: 60%;
@@ -74,4 +75,3 @@ body{
     left: 98%;  right: 0; top: -2%; bottom: 0;
     margin: auto;
 }
-
