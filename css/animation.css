@@ -1,22 +1,38 @@
-@keyframes  pro-hrScale {
-    0%{
-    transform: scale(0);
+@keyframes  hrScale {
+    0% {
+        height: 0;
+    }
+
+    50% {
+        height: 32%;
+    }
+    100% {
+        height: 16%;
+    }
+}
+    @keyframes proAni {
+        0%{
+            right: 60%;
+            opacity: 0;
+        }
+        50%{
+            right: 40%;
+            opacity: 1;
+        }
+        100%{
+            right: 50%;
+            opacity: 1;
 }
 
-    75%{
-        transform: scale(1.25);
     }
-    100%{
-        transform: scale(1);
-    }
-}
+
 @keyframes tableAni {
     0%{
         opacity: 0;
         left: 65%;
     }
     50%{
-        opacity: .5;
+        opacity: 1;
         left: 55%;
     }
     100%{
@@ -42,12 +58,16 @@
     -webkit-animation-duration: 4s;
     -webkit-animation-name: tableAni;
 }
-.pro-hrScale{
-    -webkit-animation-duration: 3s;
-    -webkit-animation-name: pro-hrScale;
+.hrScale{
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: hrScale;
 
 }
 .iconAni{
     -webkit-animation-name: iconAni;
+    -webkit-animation-duration: 4s;
+}
+.proAni{
+    -webkit-animation-name: proAni;
     -webkit-animation-duration: 4s;
 }
