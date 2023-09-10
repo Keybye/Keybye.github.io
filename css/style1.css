@@ -9,6 +9,7 @@
     left: 0;  right: 0; top: 0; bottom: 0;
     margin: auto;
     opacity: 1;
+    transition-duration: 2.5s;
 }
 .profile{
     position: absolute;
@@ -102,7 +103,7 @@ body{
             width: 60%;
             height: 30%;
             position: fixed;
-            margin-left: -15%;
+            margin-left: -20%;
             bottom: 0;
             border-radius: 30px 30px 0px 0px;
             background: rgba(200,200,200,0.5);
@@ -111,7 +112,7 @@ body{
         }
         .fade{
             opacity:0;
-            transition: 2s ease-in-out;
+            transition: 2s;
         }
         .fade:hover{
             width: 100%;
@@ -120,6 +121,8 @@ body{
 
         }
         .ins:hover+ .container-item{
-            opacity: 0;
+            top:-30%;
+            left: -5%;
+            scale: 0.7;
 
         }
